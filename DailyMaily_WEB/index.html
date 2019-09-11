@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/grayscale.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/grayscale.css" />
 
 </head>
 
@@ -81,16 +81,16 @@
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
           <h2 class="text-white mb-5">가입 후 뉴스를 받아보세요!</h2>
 
-          <form class="form-inline d-flex">
+          <div class="form-inline d-flex">
             <!--<input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
             -->
-            <button type="submit" class="btn btn-primary mx-auto" style="
+            <button class="btn btn-primary mx-auto" style="
     margin-left: auto!important;
-    margin-right: 5px!important;">Log  In</button>
+    margin-right: 5px!important;" id="login_btn">Log  In</button>
             <button type="submit" class="btn btn-primary mx-auto" style="
     margin-right: auto!important;
-    margin-left: 5px!important;">Join us!</button>
-          </form>
+    margin-left: 5px!important;" id="join_btn" >Join us!</button>
+          </div>
 
         </div>
       </div>
@@ -168,6 +168,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+  <script src="home.js"></script>
 
 </body>
 
